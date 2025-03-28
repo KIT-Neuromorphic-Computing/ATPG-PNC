@@ -1,0 +1,1150 @@
+2024-09-09 04:07:29,242 - INFO -
+Configuration: 
+gmin                0.01
+gmax                10.0
+T                   0.1
+m                   0.3
+type_nonlinear      normal
+act                 tanh
+ACT_R1n             12.7865
+ACT_R2n             -3.1871
+ACT_W1n             -10.4537
+ACT_L1n             10.546
+ACT_W2n             -5.8496
+ACT_L2n             4.2337
+S_R1n               -11.7481
+S_R2n               -0.3905
+S_W1n               -9.169
+S_L1n               0.3913
+S_W2n               7.2004
+S_L2n               15.5558
+ReLU_RHn            -1.9557
+ReLU_RLn            -20.1581
+ReLU_RDn            16.6486
+ReLU_RBn            -14.3472
+ReLU_Wn             16.655
+ReLU_Ln             -21.7591
+HS_Rn               -0.3766
+HS_Wn               0.5192
+HS_Ln               4.6293
+NEG_R1n             -7.0846
+NEG_R2n             -2.5695
+NEG_R3n             16.1542
+NEG_W1n             13.8696
+NEG_L1n             2.7635
+NEG_W2n             1.2674
+NEG_L2n             -10.4803
+NEG_W3n             -6.4386
+NEG_L3n             5.1005
+task                normal
+DATASET             5
+DataPath            ./dataset
+InputNoise          0.0
+IN_test             0.0
+R_train             1
+R_test              1
+N_time              32
+pathnorm            False
+hidden              [3]
+skipconnection      False
+SEED                0
+DEVICE              cpu
+PATIENCE            500
+EPOCH               10000000000
+LR                  0.1
+PROGRESSIVE         True
+LR_PATIENCE         100
+LR_DECAY            0.5
+LR_MIN              0.0001
+metric              acc
+SoftEva             True
+TIMELIMITATION      71
+MODE                nominal
+M_train             1
+K_train             1
+M_test              1
+K_test              1
+t_test_max          1
+integration         MC
+N_train             1
+e_train             0.0
+N_test              100
+e_test              0.1
+e_fault             2
+fault_ratio         0.0
+N_fault             50
+e_fault_test        0
+N_fault_test        50
+dropout             0.0
+lagrangian_loss     False
+rho                 100
+powerestimator      none
+powerbalance        0.0
+estimatorbalance    0.0
+pgmin               1e-07
+power_ratio         1000
+lambda_P            100
+areaestimator       none
+areabalance         0.0
+area_theta          0.15
+area_act            30.0
+area_neg            22.7
+lambda_A            0.001
+lnc                 False
+projectname         tanh_0_FaultAnalysisNormal
+temppath            ./tanh_0_FaultAnalysisNormal/temp/
+logfilepath         ./tanh_0_FaultAnalysisNormal/log/
+report_freq         10
+recording           False
+recordpath          ./tanh_0_FaultAnalysisNormal/record/
+savepath            ./tanh_0_FaultAnalysisNormal/models/
+loglevel            info
+
+
+2024-09-09 04:07:29,242 - INFO -
+Training network on device: cpu.
+
+2024-09-09 04:07:29,242 - INFO -
+Training setup: data_05_energyy2_seed_00_epsilon_0.0_dropout_0.0_fault_ratio_0.0.model.
+
+2024-09-09 04:07:29,242 - INFO -
+{'dataname': 'energyy2', 'N_feature': 8, 'N_class': 3, 'N_train': 397, 'N_valid': 127, 'N_test': 79}
+
+2024-09-09 04:07:29,242 - INFO -
+Topology of the network: [8, 3, 3].
+
+2024-09-09 04:07:31,177 - INFO -
+| Epoch:      0 | Train loss: 1.0986e+00 | Valid loss: 1.0711e+00 | Train acc: 0.4383 ± 0.0000 | Valid acc: 0.4882 ± 0.0000 | Valid Power: 0.0009 | Train Power: 0.0005 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:32,483 - INFO -
+| Epoch:     10 | Train loss: 7.7825e-01 | Valid loss: 7.3863e-01 | Train acc: 0.7355 ± 0.0000 | Valid acc: 0.7480 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0008 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:33,757 - INFO -
+| Epoch:     20 | Train loss: 5.9972e-01 | Valid loss: 6.0203e-01 | Train acc: 0.8237 ± 0.0000 | Valid acc: 0.7795 ± 0.0000 | Valid Power: 0.0008 | Train Power: 0.0008 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:35,042 - INFO -
+| Epoch:     30 | Train loss: 5.6358e-01 | Valid loss: 5.7555e-01 | Train acc: 0.8363 ± 0.0000 | Valid acc: 0.8268 ± 0.0000 | Valid Power: 0.0008 | Train Power: 0.0008 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:36,306 - INFO -
+| Epoch:     40 | Train loss: 5.3945e-01 | Valid loss: 5.6770e-01 | Train acc: 0.8111 ± 0.0000 | Valid acc: 0.8346 ± 0.0000 | Valid Power: 0.0008 | Train Power: 0.0008 | patience:   3 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:37,555 - INFO -
+| Epoch:     50 | Train loss: 5.3678e-01 | Valid loss: 5.7170e-01 | Train acc: 0.8111 ± 0.0000 | Valid acc: 0.7795 ± 0.0000 | Valid Power: 0.0008 | Train Power: 0.0008 | patience:   2 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:38,894 - INFO -
+| Epoch:     60 | Train loss: 5.5423e-01 | Valid loss: 5.6553e-01 | Train acc: 0.8136 ± 0.0000 | Valid acc: 0.7953 ± 0.0000 | Valid Power: 0.0009 | Train Power: 0.0009 | patience:  12 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:40,157 - INFO -
+| Epoch:     70 | Train loss: 5.2173e-01 | Valid loss: 5.3749e-01 | Train acc: 0.8640 ± 0.0000 | Valid acc: 0.8425 ± 0.0000 | Valid Power: 0.0009 | Train Power: 0.0009 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:41,410 - INFO -
+| Epoch:     80 | Train loss: 5.1396e-01 | Valid loss: 5.3791e-01 | Train acc: 0.8413 ± 0.0000 | Valid acc: 0.8189 ± 0.0000 | Valid Power: 0.0009 | Train Power: 0.0009 | patience:   2 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:42,678 - INFO -
+| Epoch:     90 | Train loss: 5.0703e-01 | Valid loss: 5.2470e-01 | Train acc: 0.8438 ± 0.0000 | Valid acc: 0.8189 ± 0.0000 | Valid Power: 0.0009 | Train Power: 0.0009 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:43,939 - INFO -
+| Epoch:    100 | Train loss: 5.0118e-01 | Valid loss: 5.1941e-01 | Train acc: 0.8388 ± 0.0000 | Valid acc: 0.8189 ± 0.0000 | Valid Power: 0.0009 | Train Power: 0.0009 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:45,222 - INFO -
+| Epoch:    110 | Train loss: 4.9716e-01 | Valid loss: 5.1249e-01 | Train acc: 0.8463 ± 0.0000 | Valid acc: 0.8268 ± 0.0000 | Valid Power: 0.0009 | Train Power: 0.0009 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:46,497 - INFO -
+| Epoch:    120 | Train loss: 4.9485e-01 | Valid loss: 5.0903e-01 | Train acc: 0.8463 ± 0.0000 | Valid acc: 0.8346 ± 0.0000 | Valid Power: 0.0009 | Train Power: 0.0009 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:47,768 - INFO -
+| Epoch:    130 | Train loss: 4.9277e-01 | Valid loss: 5.0603e-01 | Train acc: 0.8363 ± 0.0000 | Valid acc: 0.8189 ± 0.0000 | Valid Power: 0.0009 | Train Power: 0.0009 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:49,040 - INFO -
+| Epoch:    140 | Train loss: 4.9093e-01 | Valid loss: 5.0306e-01 | Train acc: 0.8363 ± 0.0000 | Valid acc: 0.8189 ± 0.0000 | Valid Power: 0.0009 | Train Power: 0.0009 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:50,316 - INFO -
+| Epoch:    150 | Train loss: 4.8918e-01 | Valid loss: 4.9994e-01 | Train acc: 0.8363 ± 0.0000 | Valid acc: 0.8268 ± 0.0000 | Valid Power: 0.0009 | Train Power: 0.0009 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:51,590 - INFO -
+| Epoch:    160 | Train loss: 4.8747e-01 | Valid loss: 4.9654e-01 | Train acc: 0.8463 ± 0.0000 | Valid acc: 0.8583 ± 0.0000 | Valid Power: 0.0009 | Train Power: 0.0009 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:52,872 - INFO -
+| Epoch:    170 | Train loss: 4.8574e-01 | Valid loss: 4.9308e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0009 | Train Power: 0.0009 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:54,145 - INFO -
+| Epoch:    180 | Train loss: 4.8398e-01 | Valid loss: 4.8980e-01 | Train acc: 0.8363 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0009 | Train Power: 0.0009 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:55,465 - INFO -
+| Epoch:    190 | Train loss: 4.8214e-01 | Valid loss: 4.8694e-01 | Train acc: 0.8438 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0009 | Train Power: 0.0009 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:56,738 - INFO -
+| Epoch:    200 | Train loss: 4.8034e-01 | Valid loss: 4.8442e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0009 | Train Power: 0.0009 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:07:58,154 - INFO -
+| Epoch:    210 | Train loss: 4.7856e-01 | Valid loss: 4.8106e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0010 | patience:   0 | lr: 0.1 | Epoch time: 0.2 |
+
+2024-09-09 04:07:59,473 - INFO -
+| Epoch:    220 | Train loss: 4.7681e-01 | Valid loss: 4.7748e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.2797 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:00,746 - INFO -
+| Epoch:    230 | Train loss: 4.7501e-01 | Valid loss: 4.7480e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0010 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:02,022 - INFO -
+| Epoch:    240 | Train loss: 4.7321e-01 | Valid loss: 4.7250e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0010 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:03,308 - INFO -
+| Epoch:    250 | Train loss: 4.7133e-01 | Valid loss: 4.6957e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0010 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:04,585 - INFO -
+| Epoch:    260 | Train loss: 4.6942e-01 | Valid loss: 4.6657e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0010 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:05,865 - INFO -
+| Epoch:    270 | Train loss: 4.6764e-01 | Valid loss: 4.6410e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:07,138 - INFO -
+| Epoch:    280 | Train loss: 4.6682e-01 | Valid loss: 4.6300e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0010 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:08,415 - INFO -
+| Epoch:    290 | Train loss: 4.6592e-01 | Valid loss: 4.6140e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0010 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:09,782 - INFO -
+| Epoch:    300 | Train loss: 4.6520e-01 | Valid loss: 4.6043e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0010 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:11,041 - INFO -
+| Epoch:    310 | Train loss: 4.6455e-01 | Valid loss: 4.5987e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0012 | Train Power: 0.0011 | patience:   0 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:12,293 - INFO -
+| Epoch:    320 | Train loss: 4.7133e-01 | Valid loss: 4.6070e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0107 | Train Power: 0.0013 | patience:   6 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:13,535 - INFO -
+| Epoch:    330 | Train loss: 4.7525e-01 | Valid loss: 4.7500e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:  16 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:14,780 - INFO -
+| Epoch:    340 | Train loss: 4.6697e-01 | Valid loss: 4.6496e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:  26 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:16,034 - INFO -
+| Epoch:    350 | Train loss: 4.7343e-01 | Valid loss: 4.9374e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8504 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:  36 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:17,280 - INFO -
+| Epoch:    360 | Train loss: 5.0344e-01 | Valid loss: 4.9097e-01 | Train acc: 0.8186 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:  46 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:18,525 - INFO -
+| Epoch:    370 | Train loss: 4.7904e-01 | Valid loss: 4.6249e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0011 | patience:  56 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:19,774 - INFO -
+| Epoch:    380 | Train loss: 5.0109e-01 | Valid loss: 4.7337e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9055 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0010 | patience:   3 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:21,023 - INFO -
+| Epoch:    390 | Train loss: 4.7052e-01 | Valid loss: 4.5748e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   8 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:22,266 - INFO -
+| Epoch:    400 | Train loss: 4.6976e-01 | Valid loss: 4.8065e-01 | Train acc: 0.8388 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:  18 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:23,513 - INFO -
+| Epoch:    410 | Train loss: 5.0290e-01 | Valid loss: 5.5016e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8425 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   5 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:24,756 - INFO -
+| Epoch:    420 | Train loss: 5.4579e-01 | Valid loss: 5.4873e-01 | Train acc: 0.8287 ± 0.0000 | Valid acc: 0.8504 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0016 | patience:  15 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:26,000 - INFO -
+| Epoch:    430 | Train loss: 5.3130e-01 | Valid loss: 5.3810e-01 | Train acc: 0.8237 ± 0.0000 | Valid acc: 0.8504 ± 0.0000 | Valid Power: 0.0009 | Train Power: 0.0010 | patience:  25 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:27,243 - INFO -
+| Epoch:    440 | Train loss: 4.7446e-01 | Valid loss: 4.9135e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8504 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0011 | patience:  35 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:28,488 - INFO -
+| Epoch:    450 | Train loss: 4.9470e-01 | Valid loss: 5.1907e-01 | Train acc: 0.8338 ± 0.0000 | Valid acc: 0.8504 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0010 | patience:  45 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:29,733 - INFO -
+| Epoch:    460 | Train loss: 4.7908e-01 | Valid loss: 4.9537e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8346 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:  55 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:31,073 - INFO -
+| Epoch:    470 | Train loss: 4.7423e-01 | Valid loss: 4.7717e-01 | Train acc: 0.8338 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:  65 | lr: 0.1 | Epoch time: 0.2 |
+
+2024-09-09 04:08:32,326 - INFO -
+| Epoch:    480 | Train loss: 4.7119e-01 | Valid loss: 4.7510e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:  75 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:33,571 - INFO -
+| Epoch:    490 | Train loss: 4.6607e-01 | Valid loss: 4.7003e-01 | Train acc: 0.8186 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0012 | Train Power: 0.0014 | patience:  85 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:34,814 - INFO -
+| Epoch:    500 | Train loss: 4.6393e-01 | Valid loss: 4.6401e-01 | Train acc: 0.8186 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:  95 | lr: 0.1 | Epoch time: 0.1 |
+
+2024-09-09 04:08:35,564 - INFO -
+load best network to warm start training with lower lr.
+
+2024-09-09 04:08:35,564 - INFO -
+lr update to 0.05.
+
+2024-09-09 04:08:36,063 - INFO -
+| Epoch:    510 | Train loss: 4.6839e-01 | Valid loss: 4.6776e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8583 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   4 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:37,311 - INFO -
+| Epoch:    520 | Train loss: 4.6817e-01 | Valid loss: 4.6897e-01 | Train acc: 0.8161 ± 0.0000 | Valid acc: 0.8583 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:  14 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:38,563 - INFO -
+| Epoch:    530 | Train loss: 4.6273e-01 | Valid loss: 4.5408e-01 | Train acc: 0.8539 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   2 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:39,820 - INFO -
+| Epoch:    540 | Train loss: 4.6108e-01 | Valid loss: 4.4921e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0011 | patience:   0 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:41,137 - INFO -
+| Epoch:    550 | Train loss: 4.5701e-01 | Valid loss: 4.3952e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0010 | patience:   0 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:42,418 - INFO -
+| Epoch:    560 | Train loss: 4.7588e-01 | Valid loss: 4.6822e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0010 | patience:   9 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:43,665 - INFO -
+| Epoch:    570 | Train loss: 4.5089e-01 | Valid loss: 4.4666e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0010 | patience:  19 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:44,917 - INFO -
+| Epoch:    580 | Train loss: 4.4943e-01 | Valid loss: 4.3784e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0010 | patience:   0 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:46,171 - INFO -
+| Epoch:    590 | Train loss: 4.6186e-01 | Valid loss: 4.5950e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8504 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0010 | patience:   7 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:47,416 - INFO -
+| Epoch:    600 | Train loss: 4.5948e-01 | Valid loss: 4.5841e-01 | Train acc: 0.8338 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0010 | patience:  17 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:48,663 - INFO -
+| Epoch:    610 | Train loss: 4.5832e-01 | Valid loss: 4.6076e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0010 | patience:  27 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:50,006 - INFO -
+| Epoch:    620 | Train loss: 4.6213e-01 | Valid loss: 4.5904e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0018 | Train Power: 0.0010 | patience:  37 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:51,262 - INFO -
+| Epoch:    630 | Train loss: 5.0277e-01 | Valid loss: 4.8925e-01 | Train acc: 0.7884 ± 0.0000 | Valid acc: 0.8425 ± 0.0000 | Valid Power: 0.0010 | Train Power: 0.0011 | patience:  47 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:52,512 - INFO -
+| Epoch:    640 | Train loss: 4.7114e-01 | Valid loss: 4.6447e-01 | Train acc: 0.8690 ± 0.0000 | Valid acc: 0.9055 ± 0.0000 | Valid Power: 0.0018 | Train Power: 0.0011 | patience:  57 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:53,760 - INFO -
+| Epoch:    650 | Train loss: 4.6453e-01 | Valid loss: 4.6493e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:  67 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:55,007 - INFO -
+| Epoch:    660 | Train loss: 4.6365e-01 | Valid loss: 4.6133e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0012 | Train Power: 0.0012 | patience:  77 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:56,253 - INFO -
+| Epoch:    670 | Train loss: 4.6307e-01 | Valid loss: 4.6115e-01 | Train acc: 0.8514 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:  87 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:57,502 - INFO -
+| Epoch:    680 | Train loss: 4.6251e-01 | Valid loss: 4.5938e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8740 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:  97 | lr: 0.05 | Epoch time: 0.1 |
+
+2024-09-09 04:08:58,005 - INFO -
+load best network to warm start training with lower lr.
+
+2024-09-09 04:08:58,005 - INFO -
+lr update to 0.025.
+
+2024-09-09 04:08:58,754 - INFO -
+| Epoch:    690 | Train loss: 4.5616e-01 | Valid loss: 4.4533e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   6 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:00,002 - INFO -
+| Epoch:    700 | Train loss: 4.5248e-01 | Valid loss: 4.4110e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:  16 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:01,347 - INFO -
+| Epoch:    710 | Train loss: 4.5059e-01 | Valid loss: 4.3510e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:  26 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:02,611 - INFO -
+| Epoch:    720 | Train loss: 4.4929e-01 | Valid loss: 4.3411e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   5 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:03,857 - INFO -
+| Epoch:    730 | Train loss: 4.4537e-01 | Valid loss: 4.3605e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:  15 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:05,103 - INFO -
+| Epoch:    740 | Train loss: 4.4437e-01 | Valid loss: 4.3595e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0012 | Train Power: 0.0012 | patience:  25 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:06,346 - INFO -
+| Epoch:    750 | Train loss: 4.4369e-01 | Valid loss: 4.3567e-01 | Train acc: 0.8463 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0012 | Train Power: 0.0011 | patience:  35 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:07,590 - INFO -
+| Epoch:    760 | Train loss: 4.4332e-01 | Valid loss: 4.3531e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0012 | patience:  45 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:08,833 - INFO -
+| Epoch:    770 | Train loss: 4.4293e-01 | Valid loss: 4.3421e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0013 | patience:  55 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:10,086 - INFO -
+| Epoch:    780 | Train loss: 4.4264e-01 | Valid loss: 4.3367e-01 | Train acc: 0.8489 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0012 | Train Power: 0.0012 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:11,349 - INFO -
+| Epoch:    790 | Train loss: 4.4237e-01 | Valid loss: 4.3334e-01 | Train acc: 0.8564 ± 0.0000 | Valid acc: 0.8819 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:12,629 - INFO -
+| Epoch:    800 | Train loss: 4.4214e-01 | Valid loss: 4.3283e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:13,908 - INFO -
+| Epoch:    810 | Train loss: 4.4191e-01 | Valid loss: 4.3253e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:15,185 - INFO -
+| Epoch:    820 | Train loss: 4.4167e-01 | Valid loss: 4.3225e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:16,460 - INFO -
+| Epoch:    830 | Train loss: 4.4143e-01 | Valid loss: 4.3197e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:17,745 - INFO -
+| Epoch:    840 | Train loss: 4.4118e-01 | Valid loss: 4.3174e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:19,019 - INFO -
+| Epoch:    850 | Train loss: 4.4090e-01 | Valid loss: 4.3150e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:20,295 - INFO -
+| Epoch:    860 | Train loss: 4.4060e-01 | Valid loss: 4.3124e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:21,570 - INFO -
+| Epoch:    870 | Train loss: 4.4026e-01 | Valid loss: 4.3095e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:22,845 - INFO -
+| Epoch:    880 | Train loss: 4.3988e-01 | Valid loss: 4.3062e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:24,220 - INFO -
+| Epoch:    890 | Train loss: 4.3945e-01 | Valid loss: 4.3024e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:25,496 - INFO -
+| Epoch:    900 | Train loss: 4.3898e-01 | Valid loss: 4.2978e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:26,773 - INFO -
+| Epoch:    910 | Train loss: 4.3848e-01 | Valid loss: 4.2926e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:28,047 - INFO -
+| Epoch:    920 | Train loss: 4.3797e-01 | Valid loss: 4.2858e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0013 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:29,321 - INFO -
+| Epoch:    930 | Train loss: 4.3756e-01 | Valid loss: 4.2821e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0012 | Train Power: 0.0011 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:30,595 - INFO -
+| Epoch:    940 | Train loss: 4.3718e-01 | Valid loss: 4.2752e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0094 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:31,869 - INFO -
+| Epoch:    950 | Train loss: 4.3687e-01 | Valid loss: 4.2700e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:33,140 - INFO -
+| Epoch:    960 | Train loss: 4.3656e-01 | Valid loss: 4.2638e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0011 | Train Power: 0.0011 | patience:   2 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:34,406 - INFO -
+| Epoch:    970 | Train loss: 4.3624e-01 | Valid loss: 4.2572e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0015 | Train Power: 0.0014 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:35,624 - INFO -
+| Epoch:    980 | Train loss: 4.3593e-01 | Valid loss: 4.2520e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0023 | Train Power: 0.0028 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:36,811 - INFO -
+| Epoch:    990 | Train loss: 4.3570e-01 | Valid loss: 4.2457e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:37,994 - INFO -
+| Epoch:   1000 | Train loss: 4.3548e-01 | Valid loss: 4.2424e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0015 | Train Power: 0.0015 | patience:   1 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:39,186 - INFO -
+| Epoch:   1010 | Train loss: 4.3526e-01 | Valid loss: 4.2391e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0029 | Train Power: 0.0017 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:40,381 - INFO -
+| Epoch:   1020 | Train loss: 4.3505e-01 | Valid loss: 4.2341e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0015 | Train Power: 0.0015 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:41,560 - INFO -
+| Epoch:   1030 | Train loss: 4.3484e-01 | Valid loss: 4.2307e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0015 | Train Power: 0.0015 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:42,808 - INFO -
+| Epoch:   1040 | Train loss: 4.3464e-01 | Valid loss: 4.2284e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0023 | patience:   2 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:43,983 - INFO -
+| Epoch:   1050 | Train loss: 4.3444e-01 | Valid loss: 4.2246e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0015 | Train Power: 0.0016 | patience:   2 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:45,161 - INFO -
+| Epoch:   1060 | Train loss: 4.3423e-01 | Valid loss: 4.2211e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0015 | Train Power: 0.0015 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:46,319 - INFO -
+| Epoch:   1070 | Train loss: 4.3402e-01 | Valid loss: 4.2185e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0016 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:47,497 - INFO -
+| Epoch:   1080 | Train loss: 4.3389e-01 | Valid loss: 4.2156e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0016 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:48,663 - INFO -
+| Epoch:   1090 | Train loss: 4.3378e-01 | Valid loss: 4.2139e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0015 | Train Power: 0.0016 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:49,849 - INFO -
+| Epoch:   1100 | Train loss: 4.3367e-01 | Valid loss: 4.2123e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0015 | Train Power: 0.0016 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:51,036 - INFO -
+| Epoch:   1110 | Train loss: 4.3357e-01 | Valid loss: 4.2108e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0016 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:52,224 - INFO -
+| Epoch:   1120 | Train loss: 4.3346e-01 | Valid loss: 4.2096e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0016 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:53,499 - INFO -
+| Epoch:   1130 | Train loss: 4.3335e-01 | Valid loss: 4.2085e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0016 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:54,679 - INFO -
+| Epoch:   1140 | Train loss: 4.3324e-01 | Valid loss: 4.2081e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0019 | Train Power: 0.0018 | patience:   1 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:55,829 - INFO -
+| Epoch:   1150 | Train loss: 4.3313e-01 | Valid loss: 4.2097e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0018 | patience:  11 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:56,979 - INFO -
+| Epoch:   1160 | Train loss: 4.3300e-01 | Valid loss: 4.2144e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0017 | patience:  21 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:58,130 - INFO -
+| Epoch:   1170 | Train loss: 4.3286e-01 | Valid loss: 4.2159e-01 | Train acc: 0.8665 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  31 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:09:59,248 - INFO -
+| Epoch:   1180 | Train loss: 4.3400e-01 | Valid loss: 4.1939e-01 | Train acc: 0.8690 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:   0 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:10:00,336 - INFO -
+| Epoch:   1190 | Train loss: 4.7200e-01 | Valid loss: 4.6450e-01 | Train acc: 0.7809 ± 0.0000 | Valid acc: 0.8268 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  10 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:10:01,428 - INFO -
+| Epoch:   1200 | Train loss: 5.1191e-01 | Valid loss: 4.8775e-01 | Train acc: 0.7557 ± 0.0000 | Valid acc: 0.8031 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0017 | patience:  20 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:10:02,513 - INFO -
+| Epoch:   1210 | Train loss: 4.8311e-01 | Valid loss: 4.7114e-01 | Train acc: 0.7859 ± 0.0000 | Valid acc: 0.8189 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0017 | patience:  30 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:10:03,631 - INFO -
+| Epoch:   1220 | Train loss: 4.7761e-01 | Valid loss: 4.7028e-01 | Train acc: 0.7859 ± 0.0000 | Valid acc: 0.8583 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0016 | patience:  40 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:10:04,682 - INFO -
+| Epoch:   1230 | Train loss: 4.7332e-01 | Valid loss: 4.7306e-01 | Train acc: 0.8136 ± 0.0000 | Valid acc: 0.8504 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0016 | patience:  50 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:10:05,734 - INFO -
+| Epoch:   1240 | Train loss: 4.6915e-01 | Valid loss: 4.7045e-01 | Train acc: 0.8136 ± 0.0000 | Valid acc: 0.8504 ± 0.0000 | Valid Power: 0.0015 | Train Power: 0.0016 | patience:  60 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:10:06,784 - INFO -
+| Epoch:   1250 | Train loss: 4.6309e-01 | Valid loss: 4.6286e-01 | Train acc: 0.8161 ± 0.0000 | Valid acc: 0.8583 ± 0.0000 | Valid Power: 0.0015 | Train Power: 0.0015 | patience:  70 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:10:07,822 - INFO -
+| Epoch:   1260 | Train loss: 4.7779e-01 | Valid loss: 4.7718e-01 | Train acc: 0.7859 ± 0.0000 | Valid acc: 0.8189 ± 0.0000 | Valid Power: 0.0015 | Train Power: 0.0015 | patience:  80 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:10:08,866 - INFO -
+| Epoch:   1270 | Train loss: 4.8330e-01 | Valid loss: 4.7459e-01 | Train acc: 0.7859 ± 0.0000 | Valid acc: 0.8189 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0016 | patience:  90 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:10:09,913 - INFO -
+| Epoch:   1280 | Train loss: 4.8220e-01 | Valid loss: 4.6682e-01 | Train acc: 0.7859 ± 0.0000 | Valid acc: 0.8189 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0016 | patience: 100 | lr: 0.025 | Epoch time: 0.1 |
+
+2024-09-09 04:10:10,021 - INFO -
+load best network to warm start training with lower lr.
+
+2024-09-09 04:10:10,021 - INFO -
+lr update to 0.0125.
+
+2024-09-09 04:10:10,962 - INFO -
+| Epoch:   1290 | Train loss: 4.3835e-01 | Valid loss: 4.2511e-01 | Train acc: 0.8640 ± 0.0000 | Valid acc: 0.9055 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:   9 | lr: 0.0125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:12,013 - INFO -
+| Epoch:   1300 | Train loss: 4.3830e-01 | Valid loss: 4.2536e-01 | Train acc: 0.8640 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  19 | lr: 0.0125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:13,063 - INFO -
+| Epoch:   1310 | Train loss: 4.3856e-01 | Valid loss: 4.2573e-01 | Train acc: 0.8589 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  29 | lr: 0.0125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:14,108 - INFO -
+| Epoch:   1320 | Train loss: 4.3475e-01 | Valid loss: 4.1899e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:   1 | lr: 0.0125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:15,186 - INFO -
+| Epoch:   1330 | Train loss: 4.3429e-01 | Valid loss: 4.1738e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:   0 | lr: 0.0125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:16,218 - INFO -
+| Epoch:   1340 | Train loss: 4.3379e-01 | Valid loss: 4.1914e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:   9 | lr: 0.0125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:17,255 - INFO -
+| Epoch:   1350 | Train loss: 4.3335e-01 | Valid loss: 4.1728e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0017 | patience:   0 | lr: 0.0125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:18,299 - INFO -
+| Epoch:   1360 | Train loss: 4.3527e-01 | Valid loss: 4.1879e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0017 | patience:   9 | lr: 0.0125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:19,329 - INFO -
+| Epoch:   1370 | Train loss: 4.3560e-01 | Valid loss: 4.1791e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0017 | patience:  19 | lr: 0.0125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:20,361 - INFO -
+| Epoch:   1380 | Train loss: 4.3535e-01 | Valid loss: 4.1763e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0017 | patience:  29 | lr: 0.0125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:21,475 - INFO -
+| Epoch:   1390 | Train loss: 4.3285e-01 | Valid loss: 4.1843e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0017 | patience:  39 | lr: 0.0125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:22,508 - INFO -
+| Epoch:   1400 | Train loss: 4.3252e-01 | Valid loss: 4.1835e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  49 | lr: 0.0125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:23,540 - INFO -
+| Epoch:   1410 | Train loss: 4.3232e-01 | Valid loss: 4.1860e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  59 | lr: 0.0125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:24,569 - INFO -
+| Epoch:   1420 | Train loss: 4.3222e-01 | Valid loss: 4.1830e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  69 | lr: 0.0125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:25,599 - INFO -
+| Epoch:   1430 | Train loss: 4.3215e-01 | Valid loss: 4.1838e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  79 | lr: 0.0125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:26,636 - INFO -
+| Epoch:   1440 | Train loss: 4.3208e-01 | Valid loss: 4.1840e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  89 | lr: 0.0125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:27,659 - INFO -
+| Epoch:   1450 | Train loss: 4.3202e-01 | Valid loss: 4.1831e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  99 | lr: 0.0125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:27,866 - INFO -
+load best network to warm start training with lower lr.
+
+2024-09-09 04:10:27,866 - INFO -
+lr update to 0.00625.
+
+2024-09-09 04:10:28,687 - INFO -
+| Epoch:   1460 | Train loss: 4.3300e-01 | Valid loss: 4.2559e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9134 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:   8 | lr: 0.00625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:29,737 - INFO -
+| Epoch:   1470 | Train loss: 4.3300e-01 | Valid loss: 4.1734e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:   3 | lr: 0.00625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:30,761 - INFO -
+| Epoch:   1480 | Train loss: 4.3277e-01 | Valid loss: 4.1835e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0019 | Train Power: 0.0018 | patience:  13 | lr: 0.00625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:31,784 - INFO -
+| Epoch:   1490 | Train loss: 4.3260e-01 | Valid loss: 4.1782e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0017 | patience:  23 | lr: 0.00625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:32,808 - INFO -
+| Epoch:   1500 | Train loss: 4.3255e-01 | Valid loss: 4.1817e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  33 | lr: 0.00625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:33,831 - INFO -
+| Epoch:   1510 | Train loss: 4.3247e-01 | Valid loss: 4.1813e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  43 | lr: 0.00625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:34,857 - INFO -
+| Epoch:   1520 | Train loss: 4.3242e-01 | Valid loss: 4.1816e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  53 | lr: 0.00625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:35,886 - INFO -
+| Epoch:   1530 | Train loss: 4.3236e-01 | Valid loss: 4.1822e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  63 | lr: 0.00625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:36,980 - INFO -
+| Epoch:   1540 | Train loss: 4.3231e-01 | Valid loss: 4.1824e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  73 | lr: 0.00625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:38,009 - INFO -
+| Epoch:   1550 | Train loss: 4.3226e-01 | Valid loss: 4.1827e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  83 | lr: 0.00625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:39,040 - INFO -
+| Epoch:   1560 | Train loss: 4.3221e-01 | Valid loss: 4.1829e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  93 | lr: 0.00625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:39,862 - INFO -
+load best network to warm start training with lower lr.
+
+2024-09-09 04:10:39,862 - INFO -
+lr update to 0.003125.
+
+2024-09-09 04:10:40,075 - INFO -
+| Epoch:   1570 | Train loss: 4.3285e-01 | Valid loss: 4.1716e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:   1 | lr: 0.003125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:41,100 - INFO -
+| Epoch:   1580 | Train loss: 4.3245e-01 | Valid loss: 4.2112e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  11 | lr: 0.003125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:42,126 - INFO -
+| Epoch:   1590 | Train loss: 4.3231e-01 | Valid loss: 4.1974e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  21 | lr: 0.003125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:43,154 - INFO -
+| Epoch:   1600 | Train loss: 4.3223e-01 | Valid loss: 4.2053e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  31 | lr: 0.003125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:44,183 - INFO -
+| Epoch:   1610 | Train loss: 4.3215e-01 | Valid loss: 4.2062e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  41 | lr: 0.003125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:45,210 - INFO -
+| Epoch:   1620 | Train loss: 4.3210e-01 | Valid loss: 4.2019e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0018 | Train Power: 0.0018 | patience:  51 | lr: 0.003125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:46,303 - INFO -
+| Epoch:   1630 | Train loss: 4.3208e-01 | Valid loss: 4.2013e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0031 | Train Power: 0.0047 | patience:  61 | lr: 0.003125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:47,329 - INFO -
+| Epoch:   1640 | Train loss: 4.3226e-01 | Valid loss: 4.1773e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0019 | Train Power: 0.0020 | patience:  71 | lr: 0.003125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:48,363 - INFO -
+| Epoch:   1650 | Train loss: 4.3223e-01 | Valid loss: 4.1788e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0019 | Train Power: 0.0019 | patience:  81 | lr: 0.003125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:49,391 - INFO -
+| Epoch:   1660 | Train loss: 4.3208e-01 | Valid loss: 4.1866e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0018 | Train Power: 0.0019 | patience:  91 | lr: 0.003125 | Epoch time: 0.1 |
+
+2024-09-09 04:10:50,421 - INFO -
+load best network to warm start training with lower lr.
+
+2024-09-09 04:10:50,422 - INFO -
+lr update to 0.0015625.
+
+2024-09-09 04:10:50,422 - INFO -
+| Epoch:   1670 | Train loss: 4.3202e-01 | Valid loss: 4.1974e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0018 | Train Power: 0.0019 | patience:   0 | lr: 0.0015625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:51,446 - INFO -
+| Epoch:   1680 | Train loss: 4.3242e-01 | Valid loss: 4.1880e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  10 | lr: 0.0015625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:52,474 - INFO -
+| Epoch:   1690 | Train loss: 4.3240e-01 | Valid loss: 4.1994e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  20 | lr: 0.0015625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:53,416 - INFO -
+| Epoch:   1700 | Train loss: 4.3232e-01 | Valid loss: 4.2009e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0017 | patience:  30 | lr: 0.0015625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:54,360 - INFO -
+| Epoch:   1710 | Train loss: 4.3228e-01 | Valid loss: 4.1999e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0017 | patience:  40 | lr: 0.0015625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:55,306 - INFO -
+| Epoch:   1720 | Train loss: 4.3224e-01 | Valid loss: 4.2021e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0017 | patience:  50 | lr: 0.0015625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:56,249 - INFO -
+| Epoch:   1730 | Train loss: 4.3220e-01 | Valid loss: 4.2012e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0017 | patience:  60 | lr: 0.0015625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:57,186 - INFO -
+| Epoch:   1740 | Train loss: 4.3217e-01 | Valid loss: 4.2016e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0017 | patience:  70 | lr: 0.0015625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:58,117 - INFO -
+| Epoch:   1750 | Train loss: 4.3214e-01 | Valid loss: 4.2025e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0017 | patience:  80 | lr: 0.0015625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:59,059 - INFO -
+| Epoch:   1760 | Train loss: 4.3211e-01 | Valid loss: 4.2034e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0017 | patience:  90 | lr: 0.0015625 | Epoch time: 0.1 |
+
+2024-09-09 04:10:59,998 - INFO -
+| Epoch:   1770 | Train loss: 4.3209e-01 | Valid loss: 4.2034e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0017 | Train Power: 0.0017 | patience: 100 | lr: 0.0015625 | Epoch time: 0.1 |
+
+2024-09-09 04:11:00,094 - INFO -
+load best network to warm start training with lower lr.
+
+2024-09-09 04:11:00,095 - INFO -
+lr update to 0.00078125.
+
+2024-09-09 04:11:00,941 - INFO -
+| Epoch:   1780 | Train loss: 4.3257e-01 | Valid loss: 4.1763e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:   9 | lr: 0.00078125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:01,885 - INFO -
+| Epoch:   1790 | Train loss: 4.3243e-01 | Valid loss: 4.1862e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  19 | lr: 0.00078125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:02,825 - INFO -
+| Epoch:   1800 | Train loss: 4.3239e-01 | Valid loss: 4.2026e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  29 | lr: 0.00078125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:03,845 - INFO -
+| Epoch:   1810 | Train loss: 4.3236e-01 | Valid loss: 4.2009e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  39 | lr: 0.00078125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:04,783 - INFO -
+| Epoch:   1820 | Train loss: 4.3233e-01 | Valid loss: 4.1976e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  49 | lr: 0.00078125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:05,719 - INFO -
+| Epoch:   1830 | Train loss: 4.3231e-01 | Valid loss: 4.1983e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  59 | lr: 0.00078125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:06,649 - INFO -
+| Epoch:   1840 | Train loss: 4.3229e-01 | Valid loss: 4.1993e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  69 | lr: 0.00078125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:07,580 - INFO -
+| Epoch:   1850 | Train loss: 4.3226e-01 | Valid loss: 4.2000e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  79 | lr: 0.00078125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:08,516 - INFO -
+| Epoch:   1860 | Train loss: 4.3224e-01 | Valid loss: 4.2007e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  89 | lr: 0.00078125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:09,464 - INFO -
+| Epoch:   1870 | Train loss: 4.3223e-01 | Valid loss: 4.2011e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  99 | lr: 0.00078125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:09,656 - INFO -
+load best network to warm start training with lower lr.
+
+2024-09-09 04:11:09,656 - INFO -
+lr update to 0.000390625.
+
+2024-09-09 04:11:10,410 - INFO -
+| Epoch:   1880 | Train loss: 4.3273e-01 | Valid loss: 4.1716e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:   8 | lr: 0.000390625 | Epoch time: 0.1 |
+
+2024-09-09 04:11:11,355 - INFO -
+| Epoch:   1890 | Train loss: 4.3255e-01 | Valid loss: 4.1768e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  18 | lr: 0.000390625 | Epoch time: 0.1 |
+
+2024-09-09 04:11:12,280 - INFO -
+| Epoch:   1900 | Train loss: 4.3244e-01 | Valid loss: 4.1922e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  28 | lr: 0.000390625 | Epoch time: 0.1 |
+
+2024-09-09 04:11:13,201 - INFO -
+| Epoch:   1910 | Train loss: 4.3241e-01 | Valid loss: 4.1891e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  38 | lr: 0.000390625 | Epoch time: 0.1 |
+
+2024-09-09 04:11:14,114 - INFO -
+| Epoch:   1920 | Train loss: 4.3239e-01 | Valid loss: 4.1984e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  48 | lr: 0.000390625 | Epoch time: 0.1 |
+
+2024-09-09 04:11:15,029 - INFO -
+| Epoch:   1930 | Train loss: 4.3237e-01 | Valid loss: 4.1971e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  58 | lr: 0.000390625 | Epoch time: 0.1 |
+
+2024-09-09 04:11:15,944 - INFO -
+| Epoch:   1940 | Train loss: 4.3236e-01 | Valid loss: 4.1977e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  68 | lr: 0.000390625 | Epoch time: 0.1 |
+
+2024-09-09 04:11:16,853 - INFO -
+| Epoch:   1950 | Train loss: 4.3234e-01 | Valid loss: 4.1996e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  78 | lr: 0.000390625 | Epoch time: 0.1 |
+
+2024-09-09 04:11:17,827 - INFO -
+| Epoch:   1960 | Train loss: 4.3233e-01 | Valid loss: 4.1987e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  88 | lr: 0.000390625 | Epoch time: 0.1 |
+
+2024-09-09 04:11:18,746 - INFO -
+| Epoch:   1970 | Train loss: 4.3232e-01 | Valid loss: 4.1987e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  98 | lr: 0.000390625 | Epoch time: 0.1 |
+
+2024-09-09 04:11:19,020 - INFO -
+load best network to warm start training with lower lr.
+
+2024-09-09 04:11:19,020 - INFO -
+lr update to 0.0001953125.
+
+2024-09-09 04:11:19,656 - INFO -
+| Epoch:   1980 | Train loss: 4.3280e-01 | Valid loss: 4.1714e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:   7 | lr: 0.0001953125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:20,564 - INFO -
+| Epoch:   1990 | Train loss: 4.3271e-01 | Valid loss: 4.1716e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  17 | lr: 0.0001953125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:21,470 - INFO -
+| Epoch:   2000 | Train loss: 4.3263e-01 | Valid loss: 4.1725e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  27 | lr: 0.0001953125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:22,379 - INFO -
+| Epoch:   2010 | Train loss: 4.3251e-01 | Valid loss: 4.1796e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  37 | lr: 0.0001953125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:23,285 - INFO -
+| Epoch:   2020 | Train loss: 4.3246e-01 | Valid loss: 4.1975e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  47 | lr: 0.0001953125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:24,190 - INFO -
+| Epoch:   2030 | Train loss: 4.3243e-01 | Valid loss: 4.1865e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  57 | lr: 0.0001953125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:25,095 - INFO -
+| Epoch:   2040 | Train loss: 4.3241e-01 | Valid loss: 4.1922e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  67 | lr: 0.0001953125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:26,083 - INFO -
+| Epoch:   2050 | Train loss: 4.3240e-01 | Valid loss: 4.1957e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  77 | lr: 0.0001953125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:26,987 - INFO -
+| Epoch:   2060 | Train loss: 4.3239e-01 | Valid loss: 4.1943e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  87 | lr: 0.0001953125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:27,899 - INFO -
+| Epoch:   2070 | Train loss: 4.3238e-01 | Valid loss: 4.1967e-01 | Train acc: 0.8615 ± 0.0000 | Valid acc: 0.9213 ± 0.0000 | Valid Power: 0.0016 | Train Power: 0.0017 | patience:  97 | lr: 0.0001953125 | Epoch time: 0.1 |
+
+2024-09-09 04:11:28,260 - INFO -
+load best network to warm start training with lower lr.
+
+2024-09-09 04:11:28,261 - INFO -
+lr update to 9.765625e-05.
+
+2024-09-09 04:11:28,261 - INFO -
+Early stop.
+
+2024-09-09 04:11:28,267 - INFO -
+Training if finished.
+
+2024-09-09 16:19:07,248 - INFO -
+Configuration: 
+gmin                0.01
+gmax                10.0
+T                   0.1
+m                   0.3
+type_nonlinear      normal
+act                 tanh
+ACT_R1n             12.7865
+ACT_R2n             -3.1871
+ACT_W1n             -10.4537
+ACT_L1n             10.546
+ACT_W2n             -5.8496
+ACT_L2n             4.2337
+S_R1n               -11.7481
+S_R2n               -0.3905
+S_W1n               -9.169
+S_L1n               0.3913
+S_W2n               7.2004
+S_L2n               15.5558
+ReLU_RHn            -1.9557
+ReLU_RLn            -20.1581
+ReLU_RDn            16.6486
+ReLU_RBn            -14.3472
+ReLU_Wn             16.655
+ReLU_Ln             -21.7591
+HS_Rn               -0.3766
+HS_Wn               0.5192
+HS_Ln               4.6293
+NEG_R1n             -7.0846
+NEG_R2n             -2.5695
+NEG_R3n             16.1542
+NEG_W1n             13.8696
+NEG_L1n             2.7635
+NEG_W2n             1.2674
+NEG_L2n             -10.4803
+NEG_W3n             -6.4386
+NEG_L3n             5.1005
+task                normal
+DATASET             5
+DataPath            ./dataset
+InputNoise          0.0
+IN_test             0.0
+R_train             1
+R_test              1
+N_time              32
+pathnorm            False
+hidden              [3]
+skipconnection      False
+SEED                0
+DEVICE              cpu
+PATIENCE            500
+EPOCH               10000000000
+LR                  0.1
+PROGRESSIVE         True
+LR_PATIENCE         100
+LR_DECAY            0.5
+LR_MIN              0.0001
+metric              acc
+SoftEva             True
+TIMELIMITATION      71
+MODE                nominal
+M_train             1
+K_train             1
+M_test              1
+K_test              1
+t_test_max          1
+integration         MC
+N_train             1
+e_train             0.0
+N_test              100
+e_test              0.1
+e_fault             2
+fault_ratio         0.0
+N_fault             50
+e_fault_test        0
+N_fault_test        50
+dropout             0.0
+lagrangian_loss     False
+rho                 100
+powerestimator      none
+powerbalance        0.0
+estimatorbalance    0.0
+pgmin               1e-07
+power_ratio         1000
+lambda_P            100
+areaestimator       none
+areabalance         0.0
+area_theta          0.15
+area_act            30.0
+area_neg            22.7
+lambda_A            0.001
+lnc                 False
+projectname         tanh_0_FaultAnalysisNormal
+temppath            ./tanh_0_FaultAnalysisNormal/temp/
+logfilepath         ./tanh_0_FaultAnalysisNormal/log/
+report_freq         10
+recording           False
+recordpath          ./tanh_0_FaultAnalysisNormal/record/
+savepath            ./tanh_0_FaultAnalysisNormal/models/
+loglevel            info
+
+
+2024-09-09 16:19:07,259 - INFO -
+Training network on device: cpu.
+
+2024-09-09 16:19:07,259 - INFO -
+Training setup: data_05_energyy2_seed_00_epsilon_0.0_dropout_0.0_fault_ratio_0.0.model.
+
+2024-09-09 16:19:07,259 - INFO -
+{'dataname': 'energyy2', 'N_feature': 8, 'N_class': 3, 'N_train': 397, 'N_valid': 127, 'N_test': 79}
+
+2024-09-09 16:19:07,260 - INFO -
+Training was already finished.
+
+2024-09-11 18:17:02,287 - INFO -
+Configuration: 
+gmin                0.01
+gmax                10.0
+T                   0.1
+m                   0.3
+type_nonlinear      normal
+act                 tanh
+ACT_R1n             12.7865
+ACT_R2n             -3.1871
+ACT_W1n             -10.4537
+ACT_L1n             10.546
+ACT_W2n             -5.8496
+ACT_L2n             4.2337
+S_R1n               -11.7481
+S_R2n               -0.3905
+S_W1n               -9.169
+S_L1n               0.3913
+S_W2n               7.2004
+S_L2n               15.5558
+ReLU_RHn            -1.9557
+ReLU_RLn            -20.1581
+ReLU_RDn            16.6486
+ReLU_RBn            -14.3472
+ReLU_Wn             16.655
+ReLU_Ln             -21.7591
+HS_Rn               -0.3766
+HS_Wn               0.5192
+HS_Ln               4.6293
+NEG_R1n             -7.0846
+NEG_R2n             -2.5695
+NEG_R3n             16.1542
+NEG_W1n             13.8696
+NEG_L1n             2.7635
+NEG_W2n             1.2674
+NEG_L2n             -10.4803
+NEG_W3n             -6.4386
+NEG_L3n             5.1005
+task                normal
+DATASET             5
+DataPath            ./dataset
+InputNoise          0.0
+IN_test             0.0
+R_train             1
+R_test              1
+N_time              32
+pathnorm            False
+hidden              [3]
+skipconnection      False
+SEED                0
+DEVICE              cpu
+PATIENCE            500
+EPOCH               10000000000
+LR                  0.1
+PROGRESSIVE         True
+LR_PATIENCE         100
+LR_DECAY            0.5
+LR_MIN              0.0001
+metric              acc
+SoftEva             True
+TIMELIMITATION      71
+MODE                nominal
+M_train             1
+K_train             1
+M_test              1
+K_test              1
+t_test_max          1
+integration         MC
+N_train             1
+e_train             0.0
+N_test              100
+e_test              0.1
+e_fault             2
+fault_ratio         0.0
+N_fault             50
+e_fault_test        0
+N_fault_test        50
+dropout             0.0
+lagrangian_loss     False
+rho                 100
+powerestimator      none
+powerbalance        0.0
+estimatorbalance    0.0
+pgmin               1e-07
+power_ratio         1000
+lambda_P            100
+areaestimator       none
+areabalance         0.0
+area_theta          0.15
+area_act            30.0
+area_neg            22.7
+lambda_A            0.001
+lnc                 False
+projectname         tanh_0_FaultAnalysisNormal
+temppath            ./tanh_0_FaultAnalysisNormal/temp/
+logfilepath         ./tanh_0_FaultAnalysisNormal/log/
+report_freq         10
+recording           False
+recordpath          ./tanh_0_FaultAnalysisNormal/record/
+savepath            ./tanh_0_FaultAnalysisNormal/models/
+loglevel            info
+
+
+2024-09-11 18:17:02,299 - INFO -
+Training network on device: cpu.
+
+2024-09-11 18:17:02,299 - INFO -
+Training setup: data_05_energyy2_seed_00_epsilon_0.0_dropout_0.0_fault_ratio_0.0.model.
+
+2024-09-11 18:17:02,300 - INFO -
+{'dataname': 'energyy2', 'N_feature': 8, 'N_class': 3, 'N_train': 397, 'N_valid': 127, 'N_test': 79}
+
+2024-09-11 18:17:02,300 - INFO -
+Training was already finished.
+
+2024-09-12 04:38:03,865 - INFO -
+Configuration: 
+gmin                0.01
+gmax                10.0
+T                   0.1
+m                   0.3
+type_nonlinear      normal
+act                 tanh
+ACT_R1n             12.7865
+ACT_R2n             -3.1871
+ACT_W1n             -10.4537
+ACT_L1n             10.546
+ACT_W2n             -5.8496
+ACT_L2n             4.2337
+S_R1n               -11.7481
+S_R2n               -0.3905
+S_W1n               -9.169
+S_L1n               0.3913
+S_W2n               7.2004
+S_L2n               15.5558
+ReLU_RHn            -1.9557
+ReLU_RLn            -20.1581
+ReLU_RDn            16.6486
+ReLU_RBn            -14.3472
+ReLU_Wn             16.655
+ReLU_Ln             -21.7591
+HS_Rn               -0.3766
+HS_Wn               0.5192
+HS_Ln               4.6293
+NEG_R1n             -7.0846
+NEG_R2n             -2.5695
+NEG_R3n             16.1542
+NEG_W1n             13.8696
+NEG_L1n             2.7635
+NEG_W2n             1.2674
+NEG_L2n             -10.4803
+NEG_W3n             -6.4386
+NEG_L3n             5.1005
+task                normal
+DATASET             5
+DataPath            ./dataset
+InputNoise          0.0
+IN_test             0.0
+R_train             1
+R_test              1
+N_time              32
+pathnorm            False
+hidden              [3]
+skipconnection      False
+SEED                0
+DEVICE              cpu
+PATIENCE            500
+EPOCH               10000000000
+LR                  0.1
+PROGRESSIVE         True
+LR_PATIENCE         100
+LR_DECAY            0.5
+LR_MIN              0.0001
+metric              acc
+SoftEva             True
+TIMELIMITATION      71
+MODE                nominal
+M_train             1
+K_train             1
+M_test              1
+K_test              1
+t_test_max          1
+integration         MC
+N_train             1
+e_train             0.0
+N_test              100
+e_test              0.1
+e_fault             2
+fault_ratio         0.0
+N_fault             50
+e_fault_test        0
+N_fault_test        50
+dropout             0.0
+lagrangian_loss     False
+rho                 100
+powerestimator      none
+powerbalance        0.0
+estimatorbalance    0.0
+pgmin               1e-07
+power_ratio         1000
+lambda_P            100
+areaestimator       none
+areabalance         0.0
+area_theta          0.15
+area_act            30.0
+area_neg            22.7
+lambda_A            0.001
+lnc                 False
+projectname         tanh_0_FaultAnalysisNormal
+temppath            ./tanh_0_FaultAnalysisNormal/temp/
+logfilepath         ./tanh_0_FaultAnalysisNormal/log/
+report_freq         10
+recording           False
+recordpath          ./tanh_0_FaultAnalysisNormal/record/
+savepath            ./tanh_0_FaultAnalysisNormal/models/
+loglevel            info
+
+
+2024-09-12 04:38:03,866 - INFO -
+Training network on device: cpu.
+
+2024-09-12 04:38:03,866 - INFO -
+Training setup: data_05_energyy2_seed_00_epsilon_0.0_dropout_0.0_fault_ratio_0.0.model.
+
+2024-09-12 04:38:03,866 - INFO -
+{'dataname': 'energyy2', 'N_feature': 8, 'N_class': 3, 'N_train': 397, 'N_valid': 127, 'N_test': 79}
+
+2024-09-12 04:38:03,867 - INFO -
+Training was already finished.
+

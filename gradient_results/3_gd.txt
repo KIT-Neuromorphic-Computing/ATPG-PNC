@@ -1,0 +1,3 @@
+Covered Faults: 176
+Test Coverage: 43.24%
+Total Execution Time: 1969.54 minutes

@@ -1,0 +1,3 @@
+Covered Faults: 86
+Test Coverage: 69.35%
+Time taken: 2.73 seconds

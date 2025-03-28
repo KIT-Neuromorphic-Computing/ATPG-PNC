@@ -1,0 +1,3 @@
+Active Faults: 448
+Clustered Faults: 506
+All Faults: 778

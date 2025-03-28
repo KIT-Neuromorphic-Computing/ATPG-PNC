@@ -1,0 +1,2274 @@
+[
+    {
+        "fault_index": 0,
+        "test_input": [
+            [
+                0.44734930992126465,
+                0.3824441432952881,
+                0.0,
+                0.0,
+                0.8605532050132751
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 1,
+        "test_input": [
+            [
+                0.4152151644229889,
+                0.22733420133590698,
+                0.21988028287887573,
+                0.5405630469322205,
+                0.4428035020828247
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 2,
+        "test_input": [
+            [
+                0.14543940126895905,
+                0.4928831160068512,
+                1.0,
+                0.6603676676750183,
+                0.3724666237831116
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 3,
+        "test_input": [
+            [
+                0.24007338285446167,
+                0.26161837577819824,
+                1.0,
+                1.0,
+                0.5150712728500366
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 4,
+        "test_input": [
+            [
+                0.43481770157814026,
+                0.041367027908563614,
+                1.0,
+                0.6658924221992493,
+                0.2778306007385254
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 5,
+        "test_input": [
+            [
+                0.2543156147003174,
+                0.35956937074661255,
+                1.0,
+                0.5185222625732422,
+                0.14887356758117676
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 6,
+        "test_input": [
+            [
+                0.2365475296974182,
+                0.29311418533325195,
+                1.0,
+                0.8943899869918823,
+                0.8738582134246826
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 7,
+        "test_input": [
+            [
+                0.0,
+                0.8041224479675293,
+                0.04949358105659485,
+                0.6326978802680969,
+                0.49054646492004395
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 8,
+        "test_input": [
+            [
+                0.30701667070388794,
+                0.49278607964515686,
+                1.0,
+                0.2399328052997589,
+                0.16697579622268677
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 9,
+        "test_input": [
+            [
+                0.493717759847641,
+                0.0,
+                1.0,
+                1.0,
+                0.6474741101264954
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 10,
+        "test_input": [
+            [
+                0.32418131828308105,
+                0.25258710980415344,
+                1.0,
+                1.0,
+                0.13794100284576416
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 11,
+        "test_input": [
+            [
+                0.36170822381973267,
+                0.2207186371088028,
+                1.0,
+                0.8369941115379333,
+                0.9218425750732422
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 12,
+        "test_input": [
+            [
+                0.33614009618759155,
+                0.39693334698677063,
+                1.0,
+                0.3340161144733429,
+                0.5475937724113464
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 13,
+        "test_input": [
+            [
+                0.244431734085083,
+                0.37313950061798096,
+                1.0,
+                1.0,
+                0.6135047078132629
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 14,
+        "test_input": [
+            [
+                0.17523792386054993,
+                0.006377738900482655,
+                0.6399811506271362,
+                0.41664376854896545,
+                0.9120897054672241
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 15,
+        "test_input": [
+            [
+                0.32807040214538574,
+                1.0,
+                0.105851911008358,
+                0.17910712957382202,
+                0.7622730135917664
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 16,
+        "test_input": [
+            [
+                0.2583085298538208,
+                0.916841447353363,
+                0.0,
+                0.5918037295341492,
+                0.4727707505226135
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 17,
+        "test_input": [
+            [
+                0.12922033667564392,
+                1.0,
+                0.14154019951820374,
+                0.75025475025177,
+                0.593363881111145
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 18,
+        "test_input": [
+            [
+                0.3221636712551117,
+                0.801594078540802,
+                0.0,
+                0.454298198223114,
+                0.7524583339691162
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 19,
+        "test_input": [
+            [
+                0.33334988355636597,
+                0.7308309674263,
+                0.022217584773898125,
+                0.4408840835094452,
+                0.9359018206596375
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 20,
+        "test_input": [
+            [
+                0.12970879673957825,
+                0.9142521619796753,
+                0.35296326875686646,
+                0.5480127930641174,
+                0.41836583614349365
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 21,
+        "test_input": [
+            [
+                0.1649755984544754,
+                0.57235187292099,
+                0.991815447807312,
+                0.28734371066093445,
+                0.1301143765449524
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 22,
+        "test_input": [
+            [
+                0.204901784658432,
+                0.0,
+                0.005656062159687281,
+                0.010277931578457355,
+                0.23052459955215454
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 23,
+        "test_input": [
+            [
+                0.026552513241767883,
+                0.7780391573905945,
+                0.2138577699661255,
+                0.7012050747871399,
+                0.7865277528762817
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 24,
+        "test_input": [
+            [
+                0.022483626380562782,
+                0.8164098262786865,
+                0.4994775354862213,
+                0.6180997490882874,
+                0.17675739526748657
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 25,
+        "test_input": [
+            [
+                0.048864275217056274,
+                0.937401533126831,
+                0.33825334906578064,
+                0.19375401735305786,
+                0.5471922159194946
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 26,
+        "test_input": [
+            [
+                0.25401559472084045,
+                0.6237658262252808,
+                0.46836090087890625,
+                0.0,
+                0.6951686143875122
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 27,
+        "test_input": [
+            [
+                0.06812179833650589,
+                0.7996422648429871,
+                0.5581195950508118,
+                0.26883989572525024,
+                0.32990556955337524
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 28,
+        "test_input": [
+            [
+                0.03809228539466858,
+                0.0,
+                0.6349861025810242,
+                0.8939931988716125,
+                0.7069084048271179
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 29,
+        "test_input": [
+            [
+                0.890331506729126,
+                0.2142551690340042,
+                0.3707866370677948,
+                0.17947134375572205,
+                0.8216197490692139
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 30,
+        "test_input": [
+            [
+                0.42608964443206787,
+                0.9996376037597656,
+                0.36614787578582764,
+                0.31053218245506287,
+                0.778863787651062
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 31,
+        "test_input": [
+            [
+                0.2698928117752075,
+                0.8494415283203125,
+                0.007430294528603554,
+                0.2876693308353424,
+                0.7151390910148621
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 32,
+        "test_input": [
+            [
+                0.0,
+                0.0,
+                0.8277679681777954,
+                0.7975233793258667,
+                0.5947237014770508
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 33,
+        "test_input": [
+            [
+                0.4597993493080139,
+                0.48338770866394043,
+                0.12452281266450882,
+                0.05351341515779495,
+                0.732977032661438
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 34,
+        "test_input": [
+            [
+                0.38162824511528015,
+                1.0,
+                0.025270918384194374,
+                0.08662579953670502,
+                0.526042640209198
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 35,
+        "test_input": [
+            [
+                0.3340775966644287,
+                0.1539245843887329,
+                0.7508179545402527,
+                0.1257617324590683,
+                0.7083763480186462
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 1,
+        "is_covered": false,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 36,
+        "test_input": [
+            [
+                0.3007112443447113,
+                0.890885055065155,
+                0.301362544298172,
+                0.04500267282128334,
+                0.6205794215202332
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 37,
+        "test_input": [
+            [
+                0.05140102654695511,
+                0.46741753816604614,
+                0.7986472249031067,
+                0.6225902438163757,
+                0.31447917222976685
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 1,
+        "is_covered": false,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 38,
+        "test_input": [
+            [
+                0.033898621797561646,
+                0.7632361054420471,
+                0.4578939378261566,
+                0.40380775928497314,
+                0.07852768898010254
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 39,
+        "test_input": [
+            [
+                0.006884511560201645,
+                0.7812915444374084,
+                0.22911344468593597,
+                0.5311747789382935,
+                0.1522831916809082
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 40,
+        "test_input": [
+            [
+                0.24934892356395721,
+                0.13882935047149658,
+                0.3669191300868988,
+                0.8305202126502991,
+                0.6306971311569214
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 1,
+        "is_covered": false,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 41,
+        "test_input": [
+            [
+                0.2810654938220978,
+                0.42156511545181274,
+                0.2808070778846741,
+                0.43238183856010437,
+                0.05171036720275879
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 1,
+        "is_covered": false,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 42,
+        "test_input": [
+            [
+                0.21449843049049377,
+                0.3408733010292053,
+                0.8917015790939331,
+                0.08104540407657623,
+                0.688083827495575
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 1,
+        "is_covered": false,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 43,
+        "test_input": [
+            [
+                0.13129183650016785,
+                0.5384550094604492,
+                0.3094317317008972,
+                0.7726222276687622,
+                0.5708417296409607
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 44,
+        "test_input": [
+            [
+                0.32210850715637207,
+                0.3801381587982178,
+                0.03358108550310135,
+                0.5658188462257385,
+                0.25815892219543457
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 0,
+        "is_covered": false,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 45,
+        "test_input": [
+            [
+                0.5609837174415588,
+                1.0,
+                0.9517242908477783,
+                0.3819611072540283,
+                0.7738140225410461
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 46,
+        "test_input": [
+            [
+                0.2557031810283661,
+                0.4400910437107086,
+                0.13437174260616302,
+                0.24413542449474335,
+                1.0
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 47,
+        "test_input": [
+            [
+                0.19726598262786865,
+                0.5340461730957031,
+                0.34720638394355774,
+                0.130205437541008,
+                0.40464526414871216
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 48,
+        "test_input": [
+            [
+                0.14275552332401276,
+                0.5879738926887512,
+                0.23265083134174347,
+                0.19925203919410706,
+                0.2839541435241699
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 49,
+        "test_input": [
+            [
+                0.47393521666526794,
+                0.1391562670469284,
+                0.03914111107587814,
+                0.2685014307498932,
+                0.3714725971221924
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 0,
+        "is_covered": false,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 50,
+        "test_input": [
+            [
+                0.23463672399520874,
+                0.48329102993011475,
+                0.2559039294719696,
+                0.17446757853031158,
+                1.0
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 51,
+        "test_input": [
+            [
+                0.48023584485054016,
+                0.1783527135848999,
+                0.11803299933671951,
+                0.19323287904262543,
+                1.0
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 1,
+        "is_covered": false,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 52,
+        "test_input": [
+            [
+                0.18373271822929382,
+                0.5691194534301758,
+                0.31658315658569336,
+                0.13568294048309326,
+                1.0
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 53,
+        "test_input": [
+            [
+                0.17174223065376282,
+                0.21019528806209564,
+                0.5287438035011292,
+                0.8302727341651917,
+                0.9292218089103699
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 0,
+        "is_covered": false,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 54,
+        "test_input": [
+            [
+                0.2818151116371155,
+                0.5835321545600891,
+                0.4287554621696472,
+                0.0,
+                0.44906842708587646
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 55,
+        "test_input": [
+            [
+                0.34915414452552795,
+                0.18279540538787842,
+                0.9978578090667725,
+                0.48798784613609314,
+                0.2912527918815613
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 56,
+        "test_input": [
+            [
+                0.4386170208454132,
+                0.0,
+                0.6990076303482056,
+                0.7751898169517517,
+                0.3121944069862366
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 57,
+        "test_input": [
+            [
+                0.23637115955352783,
+                0.48173224925994873,
+                0.7100958228111267,
+                0.15302467346191406,
+                0.8113875389099121
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 58,
+        "test_input": [
+            [
+                0.027846267446875572,
+                0.9921602010726929,
+                0.4723788797855377,
+                0.09716971218585968,
+                0.9652168154716492
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 59,
+        "test_input": [
+            [
+                0.3883265256881714,
+                0.0,
+                1.0,
+                1.0,
+                0.03861061483621597
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 60,
+        "test_input": [
+            [
+                0.09952190518379211,
+                0.9158000349998474,
+                0.0,
+                0.09091438353061676,
+                0.7050288319587708
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 61,
+        "test_input": [
+            [
+                0.29638582468032837,
+                0.1383904218673706,
+                1.0,
+                1.0,
+                0.5299025774002075
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 62,
+        "test_input": [
+            [
+                0.3836728632450104,
+                0.32600894570350647,
+                0.0,
+                0.4766997694969177,
+                0.4720516800880432
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 63,
+        "test_input": [
+            [
+                0.08976342529058456,
+                0.8659601807594299,
+                0.7131547331809998,
+                0.0,
+                0.13350307941436768
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 64,
+        "test_input": [
+            [
+                0.3567711412906647,
+                0.09718366712331772,
+                0.9178348183631897,
+                0.8919479250907898,
+                0.6610400676727295
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 65,
+        "test_input": [
+            [
+                0.35098394751548767,
+                0.17340205609798431,
+                1.0,
+                0.6412543654441833,
+                0.7581533193588257
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 66,
+        "test_input": [
+            [
+                0.3835607171058655,
+                0.11323318630456924,
+                0.888270914554596,
+                0.731696367263794,
+                0.35985153913497925
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 67,
+        "test_input": [
+            [
+                0.019119134172797203,
+                0.9419304132461548,
+                0.04416438937187195,
+                0.4211316406726837,
+                0.422174870967865
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 68,
+        "test_input": [
+            [
+                0.1341100037097931,
+                0.8029273152351379,
+                0.0,
+                0.19314245879650116,
+                0.39592939615249634
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 69,
+        "test_input": [
+            [
+                0.042224910110235214,
+                0.9816791415214539,
+                0.0,
+                0.1062820702791214,
+                0.28328585624694824
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 70,
+        "test_input": [
+            [
+                0.23003003001213074,
+                0.2993437647819519,
+                1.0,
+                0.8594432473182678,
+                0.6634944677352905
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 71,
+        "test_input": [
+            [
+                0.2947697937488556,
+                0.5362986922264099,
+                0.43861982226371765,
+                0.06154094636440277,
+                0.06304042786359787
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 72,
+        "test_input": [
+            [
+                0.022943850606679916,
+                0.8594375252723694,
+                0.11376286298036575,
+                0.4850831627845764,
+                0.8266751170158386
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 73,
+        "test_input": [
+            [
+                0.12418954819440842,
+                0.7367753982543945,
+                0.06635595858097076,
+                0.4821377992630005,
+                0.9606899619102478
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 74,
+        "test_input": [
+            [
+                0.0894717276096344,
+                0.7621929049491882,
+                0.6991851329803467,
+                0.23343795537948608,
+                0.14600497484207153
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 1,
+        "is_covered": false,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 75,
+        "test_input": [
+            [
+                0.1302666813135147,
+                0.7204424142837524,
+                0.04468265175819397,
+                0.5154826045036316,
+                0.06254225969314575
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 76,
+        "test_input": [
+            [
+                0.13164696097373962,
+                0.6841748952865601,
+                0.5388398766517639,
+                0.292772114276886,
+                0.011589515954256058
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 77,
+        "test_input": [
+            [
+                0.11982252448797226,
+                0.0,
+                0.6051185727119446,
+                0.701264500617981,
+                0.10853451490402222
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 0,
+        "is_covered": false,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 78,
+        "test_input": [
+            [
+                0.1609632521867752,
+                0.6703147888183594,
+                0.46607348322868347,
+                0.31067728996276855,
+                0.365871787071228
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 79,
+        "test_input": [
+            [
+                0.0,
+                0.8784273862838745,
+                0.0,
+                0.6632395386695862,
+                0.5325849652290344
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 80,
+        "test_input": [
+            [
+                0.3817325234413147,
+                0.5706467628479004,
+                0.25587624311447144,
+                0.06667191535234451,
+                0.6058480739593506
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 1,
+        "is_covered": false,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 81,
+        "test_input": [
+            [
+                0.006732208654284477,
+                0.6225639581680298,
+                1.0,
+                1.0,
+                0.9937767386436462
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 82,
+        "test_input": [
+            [
+                0.6300352215766907,
+                0.0,
+                0.048722222447395325,
+                0.14636147022247314,
+                0.8469485640525818
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 83,
+        "test_input": [
+            [
+                0.03798435255885124,
+                0.6767066121101379,
+                1.0,
+                1.0,
+                0.24755406379699707
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 84,
+        "test_input": [
+            [
+                0.0,
+                0.7368449568748474,
+                0.43706411123275757,
+                0.4044794738292694,
+                0.17752689123153687
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 85,
+        "test_input": [
+            [
+                0.14020760357379913,
+                1.0,
+                0.20059670507907867,
+                0.6364770531654358,
+                0.5436688661575317
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 86,
+        "test_input": [
+            [
+                0.01602264679968357,
+                0.960841178894043,
+                0.7556957602500916,
+                0.10475852340459824,
+                0.3799501061439514
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 87,
+        "test_input": [
+            [
+                0.4099487066268921,
+                0.0,
+                1.0,
+                1.0,
+                0.8592954874038696
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 88,
+        "test_input": [
+            [
+                0.11036062240600586,
+                0.7615076899528503,
+                0.8307941555976868,
+                0.06518296152353287,
+                0.3592153787612915
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 89,
+        "test_input": [
+            [
+                0.4908605217933655,
+                0.0,
+                1.0,
+                1.0,
+                0.9653730392456055
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 90,
+        "test_input": [
+            [
+                0.26189762353897095,
+                1.0,
+                0.0,
+                0.0,
+                0.30039817094802856
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 91,
+        "test_input": [
+            [
+                0.0,
+                0.34514960646629333,
+                0.6190609931945801,
+                0.35602694749832153,
+                0.7882567644119263
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 92,
+        "test_input": [
+            [
+                0.04349801316857338,
+                0.7283656597137451,
+                1.0,
+                0.3295169472694397,
+                0.3948565125465393
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 93,
+        "test_input": [
+            [
+                0.0698004812002182,
+                0.9405888319015503,
+                0.4259028732776642,
+                0.03358667343854904,
+                0.35065996646881104
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 94,
+        "test_input": [
+            [
+                0.16889046132564545,
+                0.5979196429252625,
+                1.0,
+                0.3164268136024475,
+                0.3942844271659851
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 95,
+        "test_input": [
+            [
+                0.14025911688804626,
+                0.810087263584137,
+                0.4312506914138794,
+                0.0,
+                0.9062053561210632
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 96,
+        "test_input": [
+            [
+                0.2090950459241867,
+                0.5386849045753479,
+                0.02102261409163475,
+                0.4608156979084015,
+                0.7833373546600342
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 97,
+        "test_input": [
+            [
+                0.2371678352355957,
+                0.9895942807197571,
+                0.1537325531244278,
+                0.3507775664329529,
+                0.19121181964874268
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 98,
+        "test_input": [
+            [
+                0.1787339746952057,
+                0.7915464639663696,
+                0.35298097133636475,
+                0.0,
+                0.4413588047027588
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 99,
+        "test_input": [
+            [
+                0.3507979214191437,
+                0.3342084288597107,
+                1.0,
+                0.013895769603550434,
+                0.86562180519104
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 100,
+        "test_input": [
+            [
+                0.36752191185951233,
+                0.1555095613002777,
+                0.08416415750980377,
+                1.0,
+                0.7481616139411926
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 101,
+        "test_input": [
+            [
+                0.6444360613822937,
+                0.0,
+                1.0,
+                0.0,
+                0.34591442346572876
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 102,
+        "test_input": [
+            [
+                0.0646505355834961,
+                0.7269899249076843,
+                0.0,
+                1.0,
+                0.9466274976730347
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 103,
+        "test_input": [
+            [
+                0.01941913552582264,
+                0.06437098979949951,
+                0.8140659332275391,
+                0.648679256439209,
+                0.9365807771682739
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 104,
+        "test_input": [
+            [
+                0.08090584725141525,
+                0.9252135157585144,
+                0.5986840724945068,
+                0.043648939579725266,
+                0.3152097463607788
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 105,
+        "test_input": [
+            [
+                0.3866303563117981,
+                0.08239006996154785,
+                1.0,
+                0.8082153797149658,
+                0.5185296535491943
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 106,
+        "test_input": [
+            [
+                0.11906545609235764,
+                0.7355260848999023,
+                0.4787868857383728,
+                0.38094937801361084,
+                0.7328483462333679
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 107,
+        "test_input": [
+            [
+                0.2567813992500305,
+                0.38119468092918396,
+                1.0,
+                0.8804070949554443,
+                0.051152344793081284
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 108,
+        "test_input": [
+            [
+                0.03666068613529205,
+                0.7177678942680359,
+                0.0,
+                0.6723264455795288,
+                0.964146077632904
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 109,
+        "test_input": [
+            [
+                0.10962686687707901,
+                0.9135763049125671,
+                0.08738678693771362,
+                0.9059681296348572,
+                0.35778558254241943
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 110,
+        "test_input": [
+            [
+                0.41132020950317383,
+                0.16869905591011047,
+                1.0,
+                0.29334673285484314,
+                0.8854013085365295
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 111,
+        "test_input": [
+            [
+                0.08668641746044159,
+                0.8973581790924072,
+                0.3589937090873718,
+                0.21363499760627747,
+                0.9940329194068909
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 112,
+        "test_input": [
+            [
+                0.3441575765609741,
+                0.240253284573555,
+                0.8391404747962952,
+                0.8139795064926147,
+                0.9938352108001709
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 113,
+        "test_input": [
+            [
+                0.0,
+                0.7955132722854614,
+                0.0,
+                0.6703380346298218,
+                0.9212176203727722
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 114,
+        "test_input": [
+            [
+                0.23755782842636108,
+                0.8921535015106201,
+                0.3437448740005493,
+                0.1703946888446808,
+                0.42564958333969116
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 115,
+        "test_input": [
+            [
+                0.0,
+                0.1907617598772049,
+                0.6482426524162292,
+                0.8771194219589233,
+                0.8872249722480774
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 116,
+        "test_input": [
+            [
+                0.23501601815223694,
+                0.7114898562431335,
+                0.0,
+                0.0,
+                0.3581831455230713
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 117,
+        "test_input": [
+            [
+                0.3085865378379822,
+                0.1552882194519043,
+                1.0,
+                1.0,
+                0.8576285243034363
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 118,
+        "test_input": [
+            [
+                0.0,
+                0.8000004291534424,
+                0.0,
+                0.6721366047859192,
+                0.8955106735229492
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 119,
+        "test_input": [
+            [
+                0.5264197587966919,
+                0.0895838737487793,
+                1.0,
+                0.3825809061527252,
+                0.7024329900741577
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 120,
+        "test_input": [
+            [
+                0.2008034735918045,
+                0.05153339356184006,
+                0.49940118193626404,
+                0.5324632525444031,
+                0.04931342974305153
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 121,
+        "test_input": [
+            [
+                0.18790064752101898,
+                0.9804971814155579,
+                0.1045612320303917,
+                0.5991492867469788,
+                0.5623399615287781
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 122,
+        "test_input": [
+            [
+                0.2814408540725708,
+                0.1798262596130371,
+                0.9982446432113647,
+                0.7653753161430359,
+                0.22610527276992798
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 123,
+        "test_input": [
+            [
+                0.18285389244556427,
+                0.5905765891075134,
+                0.243156298995018,
+                0.508347749710083,
+                0.8340237736701965
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 124,
+        "test_input": [
+            [
+                0.15115517377853394,
+                0.29528483748435974,
+                0.7585262656211853,
+                0.707871675491333,
+                0.23734784126281738
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 1,
+        "is_covered": false,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 125,
+        "test_input": [
+            [
+                0.3432561755180359,
+                0.9895630478858948,
+                0.16821016371250153,
+                0.04977789893746376,
+                0.9747376441955566
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 126,
+        "test_input": [
+            [
+                0.2085369974374771,
+                0.472666472196579,
+                0.9419341087341309,
+                0.2048015594482422,
+                0.14935415983200073
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 127,
+        "test_input": [
+            [
+                0.16724935173988342,
+                0.12949028611183167,
+                0.8591685891151428,
+                0.8830950260162354,
+                0.6977110505104065
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 128,
+        "test_input": [
+            [
+                0.09484242647886276,
+                0.9835698008537292,
+                0.11316786706447601,
+                0.23133905231952667,
+                0.7746549844741821
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 0,
+        "is_covered": false,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 129,
+        "test_input": [
+            [
+                0.20796047151088715,
+                0.0,
+                1.0,
+                1.0,
+                0.3458408713340759
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 130,
+        "test_input": [
+            [
+                0.14638832211494446,
+                0.1533968150615692,
+                0.8962306380271912,
+                0.9367804527282715,
+                0.3802756071090698
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 131,
+        "test_input": [
+            [
+                0.3641158640384674,
+                0.18010994791984558,
+                0.20840594172477722,
+                0.7741842269897461,
+                0.7481545209884644
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 132,
+        "test_input": [
+            [
+                0.11541853845119476,
+                0.018258096650242805,
+                0.5800046324729919,
+                0.7718778252601624,
+                0.9248870611190796
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 133,
+        "test_input": [
+            [
+                0.4876759648323059,
+                0.16717910766601562,
+                0.8000198006629944,
+                0.6207278966903687,
+                0.749660313129425
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 1,
+        "is_covered": false,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 134,
+        "test_input": [
+            [
+                0.22373881936073303,
+                0.7437536716461182,
+                0.030547520145773888,
+                0.08416026830673218,
+                0.5880093574523926
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 135,
+        "test_input": [
+            [
+                0.3038111627101898,
+                0.3843750059604645,
+                0.8844871520996094,
+                0.18528836965560913,
+                0.10935795307159424
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 136,
+        "test_input": [
+            [
+                0.4906159043312073,
+                0.4329974353313446,
+                0.008632094599306583,
+                0.0694708600640297,
+                0.062165915966033936
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 137,
+        "test_input": [
+            [
+                0.0036278602201491594,
+                0.13176201283931732,
+                0.8090358972549438,
+                0.7269838452339172,
+                0.5170451998710632
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 138,
+        "test_input": [
+            [
+                0.10784544795751572,
+                0.3940593898296356,
+                0.7827023267745972,
+                0.7526419162750244,
+                0.9020199179649353
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 0,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 139,
+        "test_input": [
+            [
+                0.2113954871892929,
+                0.6870861649513245,
+                0.5332709550857544,
+                0.0,
+                0.8723358511924744
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 1,
+        "is_covered": true,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 140,
+        "test_input": [
+            [
+                0.16732090711593628,
+                0.7946204543113708,
+                0.011829299852252007,
+                0.1932380497455597,
+                0.5282659530639648
+            ]
+        ],
+        "fault_free_class": 0,
+        "faulty_class": 0,
+        "is_covered": false,
+        "num_epochs": 200
+    },
+    {
+        "fault_index": 141,
+        "test_input": [
+            [
+                0.12381298840045929,
+                0.691130518913269,
+                0.42135363817214966,
+                0.676818311214447,
+                0.18566501140594482
+            ]
+        ],
+        "fault_free_class": 1,
+        "faulty_class": 1,
+        "is_covered": false,
+        "num_epochs": 200
+    }
+]
